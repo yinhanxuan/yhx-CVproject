@@ -1,0 +1,56 @@
+# -----------------------------------------
+# Python 相关
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -----------------------------------------
+# 后端上传 / 模型 / 临时文件
+# -----------------------------------------
+backend/static/uploads/*
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pb
+*.ckpt
+*.bin
+*.joblib
+*.pkl
+*.keras
+*.weights
+*.caffemodel
+
+# -----------------------------------------
+# 前端 / IDE / 系统文件
+# -----------------------------------------
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.tmp
+*.temp
+
+# -----------------------------------------
+# 日志 / 缓存 / 打包
+# -----------------------------------------
+logs/
+*.log
+dist/
+build/
+*.egg-info/
+.installed.cfg
